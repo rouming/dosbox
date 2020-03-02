@@ -39,6 +39,7 @@
 #else										/* LINUX / GCC */
 #include <dirent.h>
 #include <unistd.h>
+#define ULONGTYPE(a) a##ULL
 #define LONGTYPE(a) a##LL
 #endif
 
